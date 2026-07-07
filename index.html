@@ -3,73 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#5b93f5" />
   <title>Marina's Birthday Quest</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div class="scene" aria-live="polite">
-    <div class="cloud cloud-a">☁️</div>
-    <div class="cloud cloud-b">☁️</div>
-    <div class="cloud cloud-c">☁️</div>
-    <div class="coin coin-a">🪙</div>
-    <div class="coin coin-b">🪙</div>
+  <div id="app" class="game-shell">
+    <div class="sky-decoration" aria-hidden="true">
+      <span class="cloud cloud-a"></span>
+      <span class="cloud cloud-b"></span>
+      <span class="coin coin-a">🪙</span>
+      <span class="coin coin-b">🪙</span>
+      <span class="pipe pipe-left"></span>
+      <span class="pipe pipe-right"></span>
+    </div>
 
     <header class="hud">
       <div>❤️❤️❤️</div>
       <div>🪙 <span id="coins">30</span></div>
-      <div>⭐ <span id="stars">0</span>/18</div>
-      <button id="soundBtn" class="sound" type="button" aria-label="Activar o silenciar música">🔇</button>
+      <div>⭐ <span id="stars">0</span>/<span id="totalStars">18</span></div>
+      <button id="soundBtn" class="icon-btn" type="button">🔊</button>
     </header>
 
-    <main class="game-card">
-      <section id="screen-loading" class="screen active">
-        <h1>MARINA'S<br><span>BIRTHDAY QUEST</span></h1>
-        <p class="subtitle">LEVEL 30</p>
-        <div class="loading-bar"><span></span></div>
-        <p class="tiny">Cargando aventura...</p>
-      </section>
+    <main id="screen" class="screen"></main>
 
-      <section id="screen-menu" class="screen">
-        <div class="title-badge">🎮 MISIÓN DESBLOQUEADA</div>
-        <h2 id="missionTitle">Quiz Gamer</h2>
-        <p id="missionIntro" class="dialogue"></p>
-        <div class="meta">
-          <span id="npcTag">NPC #01</span>
-          <span id="difficulty">⭐⭐⭐☆☆</span>
-        </div>
-        <button id="startBtn" class="primary" type="button">▶ START</button>
-        <button id="mapBtn" class="secondary" type="button">🗺️ Ver mapa</button>
-      </section>
-
-      <section id="screen-map" class="screen">
-        <h2>Mapa de misiones</h2>
-        <div id="worldMap" class="world-map"></div>
-        <button class="secondary back-menu" type="button">Volver</button>
-      </section>
-
-      <section id="screen-quiz" class="screen">
-        <div class="progress"><span id="progressBar"></span></div>
-        <p id="questionCounter" class="tiny"></p>
-        <h2 id="questionText"></h2>
-        <div id="answers" class="answers"></div>
-      </section>
-
-      <section id="screen-result" class="screen result-screen">
-        <h2 id="resultTitle"></h2>
-        <p id="resultScore"></p>
-        <div id="reward" class="reward"></div>
-        <button id="retryBtn" class="secondary" type="button">↺ Reintentar</button>
-        <button id="finishMapBtn" class="primary" type="button">🗺️ Ver progreso</button>
-      </section>
-    </main>
-
-    <div class="ground">
-      <div class="pipe pipe-left"></div>
-      <div class="blocks">🧱🧱🧱</div>
-      <div class="pipe pipe-right"></div>
-    </div>
+    <footer class="ground" aria-hidden="true">
+      <div class="brick-row"></div>
+      <div class="grass"></div>
+    </footer>
   </div>
 
-  <script src="script.js"></script>
+  <script src="data/game.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/music.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/engine.js"></script>
 </body>
 </html>
