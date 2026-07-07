@@ -1,1 +1,75 @@
-<!doctype html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Misión 01 - Quiz Gamer</title><link rel="stylesheet" href="style.css"></head><body><div class="sky"><div class="cloud cloud1"></div><div class="cloud cloud2"></div><div class="coin coin1">●</div><div class="coin coin2">●</div><div class="pipe pipe-left"></div><div class="pipe pipe-right"></div><main class="game-card"><div class="hud"><span>000030</span><span>🪙 <strong id="coins">0</strong></span><button id="soundBtn" class="sound-btn" type="button">🔊 música</button></div><section id="startScreen" class="screen active"><h1>QUIZ GAMER</h1><p class="subtitle">MISIÓN 01 · LEVEL 30</p><div class="avatar">🎮</div><p class="mission">Marina, responde 10 preguntas sobre Mario, Among Us, Stardew Valley, Luigi's Mansion y Mario Odyssey.</p><p class="rule">Objetivo: consigue mínimo <strong>7/10</strong> para superar la misión.</p><button id="startBtn" class="pixel-btn">START</button></section><section id="quizScreen" class="screen"><div class="progress-wrap"><div id="progressBar" class="progress-bar"></div></div><p id="questionCount" class="question-count"></p><h2 id="questionText"></h2><div id="answers" class="answers"></div><p id="feedback" class="feedback"></p></section><section id="endScreen" class="screen"><h1 id="finalTitle"></h1><div id="stars" class="stars"></div><p id="finalScore" class="final-score"></p><p id="finalText"></p><button id="restartBtn" class="pixel-btn">REINTENTAR</button></section></main><div class="ground"></div></div><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Marina's Birthday Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scene" aria-live="polite">
+    <div class="cloud cloud-a">☁️</div>
+    <div class="cloud cloud-b">☁️</div>
+    <div class="cloud cloud-c">☁️</div>
+    <div class="coin coin-a">🪙</div>
+    <div class="coin coin-b">🪙</div>
+
+    <header class="hud">
+      <div>❤️❤️❤️</div>
+      <div>🪙 <span id="coins">30</span></div>
+      <div>⭐ <span id="stars">0</span>/18</div>
+      <button id="soundBtn" class="sound" type="button" aria-label="Activar o silenciar música">🔇</button>
+    </header>
+
+    <main class="game-card">
+      <section id="screen-loading" class="screen active">
+        <h1>MARINA'S<br><span>BIRTHDAY QUEST</span></h1>
+        <p class="subtitle">LEVEL 30</p>
+        <div class="loading-bar"><span></span></div>
+        <p class="tiny">Cargando aventura...</p>
+      </section>
+
+      <section id="screen-menu" class="screen">
+        <div class="title-badge">🎮 MISIÓN DESBLOQUEADA</div>
+        <h2 id="missionTitle">Quiz Gamer</h2>
+        <p id="missionIntro" class="dialogue"></p>
+        <div class="meta">
+          <span id="npcTag">NPC #01</span>
+          <span id="difficulty">⭐⭐⭐☆☆</span>
+        </div>
+        <button id="startBtn" class="primary" type="button">▶ START</button>
+        <button id="mapBtn" class="secondary" type="button">🗺️ Ver mapa</button>
+      </section>
+
+      <section id="screen-map" class="screen">
+        <h2>Mapa de misiones</h2>
+        <div id="worldMap" class="world-map"></div>
+        <button class="secondary back-menu" type="button">Volver</button>
+      </section>
+
+      <section id="screen-quiz" class="screen">
+        <div class="progress"><span id="progressBar"></span></div>
+        <p id="questionCounter" class="tiny"></p>
+        <h2 id="questionText"></h2>
+        <div id="answers" class="answers"></div>
+      </section>
+
+      <section id="screen-result" class="screen result-screen">
+        <h2 id="resultTitle"></h2>
+        <p id="resultScore"></p>
+        <div id="reward" class="reward"></div>
+        <button id="retryBtn" class="secondary" type="button">↺ Reintentar</button>
+        <button id="finishMapBtn" class="primary" type="button">🗺️ Ver progreso</button>
+      </section>
+    </main>
+
+    <div class="ground">
+      <div class="pipe pipe-left"></div>
+      <div class="blocks">🧱🧱🧱</div>
+      <div class="pipe pipe-right"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
