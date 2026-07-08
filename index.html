@@ -3,40 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#5b93f5" />
   <title>Marina's Birthday Quest</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div id="app" class="game-shell">
-    <div class="sky-decoration" aria-hidden="true">
-      <span class="cloud cloud-a"></span>
-      <span class="cloud cloud-b"></span>
-      <span class="coin coin-a">🪙</span>
-      <span class="coin coin-b">🪙</span>
-      <span class="pipe pipe-left"></span>
-      <span class="pipe pipe-right"></span>
-    </div>
-
-    <header class="hud">
-      <div>❤️❤️❤️</div>
-      <div>🪙 <span id="coins">30</span></div>
-      <div>⭐ <span id="stars">0</span>/<span id="totalStars">18</span></div>
-      <button id="soundBtn" class="icon-btn" type="button">🔊</button>
-    </header>
-
-    <main id="screen" class="screen"></main>
-
-    <footer class="ground" aria-hidden="true">
-      <div class="brick-row"></div>
-      <div class="grass"></div>
-    </footer>
+  <div class="sky" aria-hidden="true">
+    <div class="cloud c1"></div><div class="cloud c2"></div><div class="cloud c3"></div>
+    <div class="hill h1"></div><div class="hill h2"></div>
+    <div class="pipe p1"></div><div class="pipe p2"></div>
+    <div class="ground"></div>
   </div>
-
-  <script src="data/game.js"></script>
-  <script src="js/progress.js"></script>
-  <script src="js/music.js"></script>
-  <script src="js/ui.js"></script>
-  <script src="js/engine.js"></script>
+  <main id="app" class="app"></main>
+  <script src="js/app.js"></script>
 </body>
 </html>
