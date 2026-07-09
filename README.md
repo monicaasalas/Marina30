@@ -1,28 +1,42 @@
-# Marina's Birthday Quest v1.2
+# Marina's Birthday Quest — v1.3
 
-Proyecto web para GitHub Pages.
+Versión completa y ordenada para GitHub Pages.
 
-## Subir a GitHub
-1. Descomprime el ZIP.
-2. Sube TODO el contenido a tu repo `Marina30`.
-3. Commit changes.
-4. Espera a GitHub Pages.
+## Cómo actualizar GitHub
 
-## URLs para QR
-- Inicio: `https://monicaasalas.github.io/Marina30/`
-- Quiz Gamer: `https://monicaasalas.github.io/Marina30/?mission=gamer`
-- Radio Retro: `https://monicaasalas.github.io/Marina30/?mission=musica`
-- Chef Supremo: `https://monicaasalas.github.io/Marina30/?mission=cocina`
-- Duelo de Letras: `https://monicaasalas.github.io/Marina30/?mission=letras`
-- Picasso en Pánico: `https://monicaasalas.github.io/Marina30/?mission=dibujo`
-- El Minuto Inútil: `https://monicaasalas.github.io/Marina30/?mission=inutil`
-- Detective del Pasado: `https://monicaasalas.github.io/Marina30/?mission=diferencias`
-- ¿Quién dijo eso?: `https://monicaasalas.github.io/Marina30/?mission=frases`
-- ¿Quién es quién?: `https://monicaasalas.github.io/Marina30/?mission=quien`
+1. Descomprime este ZIP.
+2. Entra dentro de la carpeta descomprimida.
+3. Sube **todo el contenido** al repositorio `Marina30`:
+   - `index.html`
+   - `css/`
+   - `js/`
+   - `assets/`
+   - `README.md`
+4. Haz `Commit changes`.
+5. Espera 1 minuto y abre: `https://monicaasalas.github.io/Marina30/`
 
-## Nota
-El minijuego `¿Quién es quién?` está preparado para que si aparece una transformación masculina, las 4 opciones sean nombres de mujeres; si aparece una transformación femenina, las 4 opciones sean nombres de hombres.
+> Importante: no subas solo el `index.html`. Si no subes también `css`, `js` y `assets`, no cargan música ni imágenes.
 
-## Reiniciar progreso
-Abre la consola del navegador y ejecuta:
-`localStorage.removeItem('MBQ_PROGRESS_V1')`
+## Misiones incluidas
+
+- `?mission=gamer` — Quiz Gamer
+- `?mission=perros` — Dog Master
+- `?mission=musica` — Radio Retro / Adivina la canción
+- `?mission=cocina` — Chef Supremo
+- `?mission=dilo` — Dilo sin decirlo
+- `?mission=letras` — Duelo de Letras
+- `?mission=dibujo` — Picasso en Pánico
+- `?mission=inutil` — El Minuto Inútil
+- `?mission=diferencias` — Detective del Pasado
+- `?mission=frases` — ¿Quién dijo eso?
+- `?mission=quien` — ¿Quién es quién?
+
+## URLs de ejemplo
+
+https://monicaasalas.github.io/Marina30/?mission=gamer
+https://monicaasalas.github.io/Marina30/?mission=musica
+https://monicaasalas.github.io/Marina30/?mission=quien
+
+## Estado de assets
+
+El juego incluye las imágenes y audios que ya estaban generados en la versión anterior. En `¿Quién es quién?` están cargadas las personas transformadas con archivo disponible en el proyecto. Si falta alguna persona concreta, se añade en la siguiente versión cuando tengamos su imagen generada.
