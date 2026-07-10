@@ -45,9 +45,13 @@ export const songs=[
 {title:'Dembow',artist:'Danny Ocean',file:'assets/audio/songs/dembow.mp3',start:0},
 {title:'Reggaetón Lento',artist:'CNCO',file:'assets/audio/songs/reggaeton_lento.mp3',start:0},
 {title:'Vale la Pena',artist:'Juan Luis Guerra',file:'assets/audio/songs/vale_la_pena.mp3',start:0},
-{title:'Se Preparó',artist:'Ozuna',file:'assets/audio/songs/se_preparo.mp3',start:0}
+{title:'Se Preparó',artist:'Ozuna',file:'assets/audio/songs/se_preparo.mp3',start:0} ,
+{title:'Cuando nadie ve',artist:'Morat',file:'assets/audio/songs/cuando_nadie_ve.mp3',start:0},
+{title:'+ (Más)',artist:'Aitana',file:'assets/audio/songs/mas.mp3',start:0},
+{title:'Tiempos bonitos',artist:'Pablo Alborán',file:'assets/audio/songs/tiempos_bonitos.mp3',start:0}
+
 ];
-export const songDistractors=['Me Rehúso','Darte un Beso','Borro Cassette','La Bicicleta','Propuesta Indecente','Mi Gente','Súbeme la Radio','La Bachata','Tacones Rojos','Robarte un Beso','Vente Pa’ Ca','Despacito','Felices los 4','Échame la Culpa','Una Lady Como Tú','Traicionera','Vivir Mi Vida','Bailando','Calma','Tusa','Hawái','Dákiti','Colgando en tus manos','Loco contigo','La Gozadera','Limbo','Te Boté','Todo de Ti','Cómo Te Atreves','Pareja del Año'];
+export const songDistractors=['Cuando nadie ve','Besos en guerra','No se va','Cómo te atreves','+ (Más)','Mon Amour','Los Ángeles','Vas a quedarte','Tiempos bonitos','Saturno','Solamente tú','Prometo','Me Rehúso','Darte un Beso','Borro Cassette','La Bicicleta','Propuesta Indecente','Mi Gente','Súbeme la Radio','La Bachata','Tacones Rojos','Robarte un Beso','Vente Pa’ Ca','Despacito','Felices los 4','Échame la Culpa','Una Lady Como Tú','Traicionera','Vivir Mi Vida','Bailando','Calma','Tusa','Hawái','Dákiti','Colgando en tus manos','Loco contigo','La Gozadera','Limbo','Te Boté','Todo de Ti','Cómo Te Atreves','Pareja del Año'];
 export const recipes=[
 {name:'Carbonara tradicional',count:6,correct:['Pasta','Guanciale','Pecorino Romano','Huevo','Pimienta negra','Agua de cocción'],options:['Pasta','Guanciale','Pecorino Romano','Huevo','Pimienta negra','Agua de cocción','Nata','Bacon','Cebolla','Ajo','Mantequilla','Orégano']},
 {name:'Paella valenciana',count:8,correct:['Arroz redondo','Pollo','Conejo','Judía verde','Garrofón','Tomate','Azafrán','Agua'],options:['Arroz redondo','Pollo','Conejo','Judía verde','Garrofón','Tomate','Azafrán','Agua','Chorizo','Cebolla','Guisantes','Marisco','Nata','Patata']},
