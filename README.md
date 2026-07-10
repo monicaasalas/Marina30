@@ -1,42 +1,23 @@
-# Marina's Birthday Quest — v1.3
+# Marina's Birthday Quest — v1.0 funcional
 
-Versión completa y ordenada para GitHub Pages.
+Sube TODO el contenido de esta carpeta al repositorio `Marina30` de GitHub Pages.
 
-## Cómo actualizar GitHub
+Rutas QR principales:
+- https://monicaasalas.github.io/Marina30/?mission=gamer
+- https://monicaasalas.github.io/Marina30/?mission=perros
+- https://monicaasalas.github.io/Marina30/?mission=musica
+- https://monicaasalas.github.io/Marina30/?mission=cocina
+- https://monicaasalas.github.io/Marina30/?mission=dilo
+- https://monicaasalas.github.io/Marina30/?mission=letras
+- https://monicaasalas.github.io/Marina30/?mission=dibujo
+- https://monicaasalas.github.io/Marina30/?mission=inutil
+- https://monicaasalas.github.io/Marina30/?mission=diferencias
+- https://monicaasalas.github.io/Marina30/?mission=frases
+- https://monicaasalas.github.io/Marina30/?mission=quien
 
-1. Descomprime este ZIP.
-2. Entra dentro de la carpeta descomprimida.
-3. Sube **todo el contenido** al repositorio `Marina30`:
-   - `index.html`
-   - `css/`
-   - `js/`
-   - `assets/`
-   - `README.md`
-4. Haz `Commit changes`.
-5. Espera 1 minuto y abre: `https://monicaasalas.github.io/Marina30/`
+También funcionan rutas tipo `/missions/gamer/`, que redirigen a la misión.
 
-> Importante: no subas solo el `index.html`. Si no subes también `css`, `js` y `assets`, no cargan música ni imágenes.
-
-## Misiones incluidas
-
-- `?mission=gamer` — Quiz Gamer
-- `?mission=perros` — Dog Master
-- `?mission=musica` — Radio Retro / Adivina la canción
-- `?mission=cocina` — Chef Supremo
-- `?mission=dilo` — Dilo sin decirlo
-- `?mission=letras` — Duelo de Letras
-- `?mission=dibujo` — Picasso en Pánico
-- `?mission=inutil` — El Minuto Inútil
-- `?mission=diferencias` — Detective del Pasado
-- `?mission=frases` — ¿Quién dijo eso?
-- `?mission=quien` — ¿Quién es quién?
-
-## URLs de ejemplo
-
-https://monicaasalas.github.io/Marina30/?mission=gamer
-https://monicaasalas.github.io/Marina30/?mission=musica
-https://monicaasalas.github.io/Marina30/?mission=quien
-
-## Estado de assets
-
-El juego incluye las imágenes y audios que ya estaban generados en la versión anterior. En `¿Quién es quién?` están cargadas las personas transformadas con archivo disponible en el proyecto. Si falta alguna persona concreta, se añade en la siguiente versión cuando tengamos su imagen generada.
+Notas:
+- El progreso se guarda en el móvil con localStorage.
+- El minijuego de diferencias lleva el motor interactivo preparado. Las imágenes definitivas pueden sustituirse en `assets/images/diferencias/` y los puntos en `data/game-data.js`.
+- El juego “Quién es quién” usa opciones solo del mismo grupo original: si la foto transformada es hombre, las opciones son mujeres; si es mujer, las opciones son hombres.

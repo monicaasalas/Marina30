@@ -1,0 +1,13 @@
+[
+ {"id":"gamer","title":"Quiz Gamer","icon":"🎮","type":"quiz","stars":1},
+ {"id":"perros","title":"Dog Master","icon":"🐶","type":"party","stars":1},
+ {"id":"musica","title":"Radio Retro","icon":"🎵","type":"music","stars":1},
+ {"id":"cocina","title":"Chef Supremo","icon":"🍝","type":"quiz","stars":1},
+ {"id":"dilo","title":"Dilo sin decirlo","icon":"🎭","type":"cards","stars":1},
+ {"id":"letras","title":"Duelo de Letras","icon":"⚔️","type":"rules","stars":1},
+ {"id":"dibujo","title":"Picasso en Pánico","icon":"🎨","type":"draw","stars":1},
+ {"id":"inutil","title":"El Minuto Inútil","icon":"🤡","type":"timer","stars":1},
+ {"id":"diferencias","title":"Detective del Pasado","icon":"🔎","type":"differences","stars":1},
+ {"id":"frases","title":"¿Quién dijo eso?","icon":"💬","type":"quiz","stars":1},
+ {"id":"quien","title":"¿Quién es quién?","icon":"👤","type":"who","stars":1}
+]
