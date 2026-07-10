@@ -1,23 +1,19 @@
-# Marina's Birthday Quest — v1.0 funcional
+# Marina's Birthday Quest — v1.1 (arreglo visual base)
 
-Sube TODO el contenido de esta carpeta al repositorio `Marina30` de GitHub Pages.
+Esta entrega corrige la base visual de todas las misiones:
 
-Rutas QR principales:
-- https://monicaasalas.github.io/Marina30/?mission=gamer
-- https://monicaasalas.github.io/Marina30/?mission=perros
-- https://monicaasalas.github.io/Marina30/?mission=musica
-- https://monicaasalas.github.io/Marina30/?mission=cocina
-- https://monicaasalas.github.io/Marina30/?mission=dilo
-- https://monicaasalas.github.io/Marina30/?mission=letras
-- https://monicaasalas.github.io/Marina30/?mission=dibujo
-- https://monicaasalas.github.io/Marina30/?mission=inutil
-- https://monicaasalas.github.io/Marina30/?mission=diferencias
-- https://monicaasalas.github.io/Marina30/?mission=frases
-- https://monicaasalas.github.io/Marina30/?mission=quien
+- contenido centrado con ancho máximo legible;
+- respuestas siempre visibles y con texto oscuro;
+- opciones en cuadrícula 2×2 en ordenador y una columna en móvil;
+- tarjetas del mapa separadas y ordenadas;
+- fotografías adaptadas sin deformarse;
+- controles grandes para móvil;
+- caché de CSS/JavaScript invalidada mediante versión `v=1.1.0`.
 
-También funcionan rutas tipo `/missions/gamer/`, que redirigen a la misión.
+## Actualización en GitHub
 
-Notas:
-- El progreso se guarda en el móvil con localStorage.
-- El minijuego de diferencias lleva el motor interactivo preparado. Las imágenes definitivas pueden sustituirse en `assets/images/diferencias/` y los puntos en `data/game-data.js`.
-- El juego “Quién es quién” usa opciones solo del mismo grupo original: si la foto transformada es hombre, las opciones son mujeres; si es mujer, las opciones son hombres.
+1. Descomprime el ZIP.
+2. Sube **todo el contenido interior** al repositorio, conservando carpetas.
+3. Confirma con **Commit changes**.
+4. Espera a que finalice GitHub Pages.
+5. Abre la web con recarga fuerte (`Ctrl + F5`) o en una pestaña privada.
